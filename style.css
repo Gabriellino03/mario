@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Mario;
+    src: url(SuperMario256.ttf)
+}
+body{
+    background-color: #fe0016;
+    position: relative;
+    color: white;
+    font-family: arial;
+    height: 100vh;
+}
+header{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+header img{
+    width: 150px;
+}
+main{
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+    z-index: 9999;
+
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+}
+main img{
+    width: 400px;
+}
+main h1{
+    font-family: Mario;
+    font-size: 8em;
+    margin-bottom: 20px;
+}
+p{
+    width: 450px;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+button{
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 50px;
+    width: 40%;
+    border: none;
+    color: rgb(54, 54, 54);
+    font-size: 1.2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: yellow;
+}
