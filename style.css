@@ -44,11 +44,11 @@ main img{
 }
 main h1{
     font-family: Mario;
-    font-size: 8em;
+    font-size: 5em;
     margin-bottom: 20px;
 }
 p{
-    width: 450px;
+    
     font-size: 1.5em;
     font-weight: 500;
 }
@@ -63,4 +63,10 @@ button{
     font-weight: 600;
     text-transform: uppercase;
     background-color: yellow;
+}
+.conteudo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
